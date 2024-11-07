@@ -9,3 +9,14 @@ Content-Type: application/json
 {
     "nome" : "XBox"
 }
+
+###
+DELETE {{url}}/plataformas/1
+
+###
+PUT {{url}}/plataformas/2
+Content-Type: application/json
+
+{
+    "nome": "Alterado"
+}
